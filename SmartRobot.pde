@@ -105,14 +105,8 @@ public class SmartRobot extends Robot {
         shift = false;
       }
     }
-    if (shift) {
-      keyType(keyCode, KeyEvent.VK_SHIFT);
-    } 
-    else {
-      keyType(keyCode);
-    }
-  }
     
+} 
   void mouseMove(PVector position) {
     mouseMove((int) position.x, (int) position.y);
   }
